@@ -1,5 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color:#121210;
+    box-sizing: border-box;
+    height: 100vh;
 }
 hr{
     border-color:#00ccbe ;
@@ -7,66 +13,63 @@ hr{
 ul{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2%;
     list-style-type:none;
-    padding: 15px;
-    font-size: 20px;
-    color: #00ccbe;
-}
-.links{
-    list-style: none;
+    padding: 2%;
+    font-size: 30px;
     color: #00ccbe;
 }
 p{
-    font-size: 30px;
+    font-size: 35px;
     color: aliceblue;
     text-align: center;
     align-items: center;
-    padding: 20px 0px 0px 0px;
+    padding: 1%;
 }
 h1{
     color: #00ccbe;
+    font-size: 55px;
     text-align: center;
-    font-size: 50px;
 }
 h2{
-    color: azure;
+    color: #00ccbe;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+    padding-top: 1%;
 }
 .card{
     height: 250px;
     border-style: groove;
-    flex: 1 0 200px;
+    flex:auto;
     border-color: #00ccbe;
     border-radius: 15px;
     transition: all 0.5s;
 }
 .cards{
     display: flex;
-    gap: 50px;
+    gap: 2%;
     align-items: center;
-    padding: 20px;
+    padding: 3%;
 }
 .card:hover{
     box-shadow: 15px 15px 15px;
     cursor: pointer;
     transform: scale(1.05);
-
 }
 h3{
     color: #00ccbe;
     display: flex;
-    font-size: 30px;
-    padding: 20px;
+    font-size: 35px;
+    padding: 2%;
 }
 #sobremim{
     color: aliceblue;
     font-size: 20px;
     display: flex;
-    padding: 0px 0px 10px 30px;
+    padding: 0px 0px 1% 3%;
 }
 p1{
     color: aliceblue;
     text-decoration: underline;
+    padding: 1%;
 }
